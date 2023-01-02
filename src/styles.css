@@ -70,7 +70,9 @@ html{
     background: #00247e !important;
     transition: .5s;
     z-index: 999;
+    color: #FFF;
 }
+
 /*style two*/
 .style-two.techno_nav_manu {
     background: transparent;

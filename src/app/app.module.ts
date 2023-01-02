@@ -23,6 +23,7 @@ import { DemoComponent } from './components/demo/demo.component';
 import { CotationComponent } from './components/cotation/cotation.component';
 import { EssaiComponent } from './components/essai/essai.component';
 import { ServiceComponent } from './components/service/service.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponentComponent},
@@ -41,6 +42,8 @@ const appRoutes: Routes = [
   {path: 'societe', component: AboutUsComponent},
   {path: 'demo', component: DemoComponent},
   {path: 'service', component: ServiceComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'essai', component: EssaiComponent},
 ]
 @NgModule({
   declarations: [
@@ -63,7 +66,8 @@ const appRoutes: Routes = [
     DemoComponent,
     CotationComponent,
     EssaiComponent,
-    ServiceComponent
+    ServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

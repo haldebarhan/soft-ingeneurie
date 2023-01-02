@@ -1,0 +1,8 @@
+.slider3 {
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.30), rgba(0,0,0, 0.35), rgba(0,0,0, 0.40), rgba(0,0,0, 0.45), rgba(0,0,0, 0.50)), url(../../../assets/images/bi.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
